@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B2546E031E44C145002AEFAF /* なんか音.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B2546DFF1E44C145002AEFAF /* なんか音.mp3 */; };
+		B2546E051E44C145002AEFAF /* もう三日.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B2546E011E44C145002AEFAF /* もう三日.mp3 */; };
+		B2546E061E44C145002AEFAF /* 気のせいだよ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B2546E021E44C145002AEFAF /* 気のせいだよ.mp3 */; };
+		B2546E0D1E44CC88002AEFAF /* ビシバシ教える.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B2546E0C1E44CC88002AEFAF /* ビシバシ教える.mp3 */; };
+		B2546E101E44CFE9002AEFAF /* キンタコ１.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B2546E0E1E44CFE9002AEFAF /* キンタコ１.mp3 */; };
+		B2546E111E44CFE9002AEFAF /* キンタコ２.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B2546E0F1E44CFE9002AEFAF /* キンタコ２.mp3 */; };
 		B2CF9E521E3CD96100C8B2DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CF9E511E3CD96100C8B2DF /* AppDelegate.swift */; };
 		B2CF9E541E3CD96100C8B2DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CF9E531E3CD96100C8B2DF /* ViewController.swift */; };
 		B2CF9E571E3CD96100C8B2DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2CF9E551E3CD96100C8B2DF /* Main.storyboard */; };
-		B2CF9E591E3CD96200C8B2DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2CF9E581E3CD96200C8B2DF /* Assets.xcassets */; };
 		B2CF9E5C1E3CD96200C8B2DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2CF9E5A1E3CD96200C8B2DF /* LaunchScreen.storyboard */; };
 		B2CF9E671E3CD96200C8B2DF /* TableViewjerdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CF9E661E3CD96200C8B2DF /* TableViewjerdTests.swift */; };
 		B2CF9E721E3CD96200C8B2DF /* TableViewjerdUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CF9E711E3CD96200C8B2DF /* TableViewjerdUITests.swift */; };
+		B2CF9E801E3CDA0400C8B2DF /* TBVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CF9E7F1E3CDA0400C8B2DF /* TBVC.swift */; };
+		B2CF9E821E3CECBA00C8B2DF /* NextTBVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CF9E811E3CECBA00C8B2DF /* NextTBVC.swift */; };
+		B2CF9E8E1E3DEA5B00C8B2DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2CF9E8D1E3DEA5B00C8B2DF /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,11 +42,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B2546DFF1E44C145002AEFAF /* なんか音.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "なんか音.mp3"; sourceTree = "<group>"; };
+		B2546E011E44C145002AEFAF /* もう三日.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "もう三日.mp3"; sourceTree = "<group>"; };
+		B2546E021E44C145002AEFAF /* 気のせいだよ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "気のせいだよ.mp3"; sourceTree = "<group>"; };
+		B2546E0C1E44CC88002AEFAF /* ビシバシ教える.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ビシバシ教える.mp3"; sourceTree = "<group>"; };
+		B2546E0E1E44CFE9002AEFAF /* キンタコ１.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "キンタコ１.mp3"; sourceTree = "<group>"; };
+		B2546E0F1E44CFE9002AEFAF /* キンタコ２.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "キンタコ２.mp3"; sourceTree = "<group>"; };
 		B2CF9E4E1E3CD96100C8B2DF /* TableViewjerd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewjerd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2CF9E511E3CD96100C8B2DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2CF9E531E3CD96100C8B2DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B2CF9E561E3CD96100C8B2DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B2CF9E581E3CD96200C8B2DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2CF9E5B1E3CD96200C8B2DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2CF9E5D1E3CD96200C8B2DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2CF9E621E3CD96200C8B2DF /* TableViewjerdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewjerdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +60,9 @@
 		B2CF9E6D1E3CD96200C8B2DF /* TableViewjerdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewjerdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2CF9E711E3CD96200C8B2DF /* TableViewjerdUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewjerdUITests.swift; sourceTree = "<group>"; };
 		B2CF9E731E3CD96200C8B2DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2CF9E7F1E3CDA0400C8B2DF /* TBVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TBVC.swift; sourceTree = "<group>"; };
+		B2CF9E811E3CECBA00C8B2DF /* NextTBVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextTBVC.swift; sourceTree = "<group>"; };
+		B2CF9E8D1E3DEA5B00C8B2DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +90,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B2546E071E44C152002AEFAF /* AudioFiles */ = {
+			isa = PBXGroup;
+			children = (
+				B2546DFF1E44C145002AEFAF /* なんか音.mp3 */,
+				B2546E011E44C145002AEFAF /* もう三日.mp3 */,
+				B2546E021E44C145002AEFAF /* 気のせいだよ.mp3 */,
+				B2546E0C1E44CC88002AEFAF /* ビシバシ教える.mp3 */,
+				B2546E0E1E44CFE9002AEFAF /* キンタコ１.mp3 */,
+				B2546E0F1E44CFE9002AEFAF /* キンタコ２.mp3 */,
+			);
+			name = AudioFiles;
+			sourceTree = "<group>";
+		};
 		B2CF9E451E3CD96100C8B2DF = {
 			isa = PBXGroup;
 			children = (
@@ -100,9 +129,12 @@
 				B2CF9E511E3CD96100C8B2DF /* AppDelegate.swift */,
 				B2CF9E531E3CD96100C8B2DF /* ViewController.swift */,
 				B2CF9E551E3CD96100C8B2DF /* Main.storyboard */,
-				B2CF9E581E3CD96200C8B2DF /* Assets.xcassets */,
+				B2CF9E7F1E3CDA0400C8B2DF /* TBVC.swift */,
+				B2CF9E811E3CECBA00C8B2DF /* NextTBVC.swift */,
+				B2CF9E8D1E3DEA5B00C8B2DF /* Assets.xcassets */,
 				B2CF9E5A1E3CD96200C8B2DF /* LaunchScreen.storyboard */,
 				B2CF9E5D1E3CD96200C8B2DF /* Info.plist */,
+				B2546E071E44C152002AEFAF /* AudioFiles */,
 			);
 			path = TableViewjerd;
 			sourceTree = "<group>";
@@ -193,6 +225,7 @@
 				TargetAttributes = {
 					B2CF9E4D1E3CD96100C8B2DF = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PC8S7S8QW6;
 						ProvisioningStyle = Automatic;
 					};
 					B2CF9E611E3CD96200C8B2DF = {
@@ -232,8 +265,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2546E051E44C145002AEFAF /* もう三日.mp3 in Resources */,
+				B2546E0D1E44CC88002AEFAF /* ビシバシ教える.mp3 in Resources */,
+				B2546E101E44CFE9002AEFAF /* キンタコ１.mp3 in Resources */,
 				B2CF9E5C1E3CD96200C8B2DF /* LaunchScreen.storyboard in Resources */,
-				B2CF9E591E3CD96200C8B2DF /* Assets.xcassets in Resources */,
+				B2546E111E44CFE9002AEFAF /* キンタコ２.mp3 in Resources */,
+				B2546E061E44C145002AEFAF /* 気のせいだよ.mp3 in Resources */,
+				B2546E031E44C145002AEFAF /* なんか音.mp3 in Resources */,
+				B2CF9E8E1E3DEA5B00C8B2DF /* Assets.xcassets in Resources */,
 				B2CF9E571E3CD96100C8B2DF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +298,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2CF9E801E3CDA0400C8B2DF /* TBVC.swift in Sources */,
 				B2CF9E541E3CD96100C8B2DF /* ViewController.swift in Sources */,
 				B2CF9E521E3CD96100C8B2DF /* AppDelegate.swift in Sources */,
+				B2CF9E821E3CECBA00C8B2DF /* NextTBVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,9 +453,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PC8S7S8QW6;
 				INFOPLIST_FILE = TableViewjerd/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rainbow.TableViewjerd;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taiwanScroll;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -424,9 +466,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PC8S7S8QW6;
 				INFOPLIST_FILE = TableViewjerd/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rainbow.TableViewjerd;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taiwanScroll;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -505,6 +548,7 @@
 				B2CF9E781E3CD96200C8B2DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2CF9E791E3CD96200C8B2DF /* Build configuration list for PBXNativeTarget "TableViewjerdTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +557,7 @@
 				B2CF9E7B1E3CD96200C8B2DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2CF9E7C1E3CD96200C8B2DF /* Build configuration list for PBXNativeTarget "TableViewjerdUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +566,7 @@
 				B2CF9E7E1E3CD96200C8B2DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
